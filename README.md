@@ -20,7 +20,7 @@
 
 **description**: Usado principalmente pelo GitWeb para fornecer uma descrição do repositório. Por padrão, tem uma descrição genérica, e muitos repositórios não a personalizam.
 
-
+Qualkê Estado
 
 **FETCH_HEAD**: Armazena informações sobre os ramos de outros repositórios que você deu git fetch recentemente. É usado internamente pelo Git para entender o que foi buscado da rede até o momento.
 
