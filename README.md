@@ -1,4 +1,8 @@
+
 # Comandos Git e Github
+
+![imagem](img/desenhodogit.png)
+![Alt text](img/ezgif.com-crop.gif)
 
 ## Git 
 
@@ -61,6 +65,8 @@
 * **Pages**: Uma ferramenta para hospedar sites estáticos diretamente dos repositórios.
 
 * **Integração com Terceiros**: O GitHub pode ser integrado com muitas outras ferramentas e serviços.
+
+* **Fork**:"fork" refere-se a uma cópia independente de um repositório Git, pode ser copiado pelo próprio github
 
 # Comandos git
 
