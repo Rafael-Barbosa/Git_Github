@@ -1,5 +1,15 @@
 # Comandos Git e Github
 
+# GIF DE GATINHO PARA ALEGRAR SEU DIA, APRECIE COM MODERAÇÃO
+
+
+![GATINHO GIT](img/Gifgato.gif)
+
+# Aproveita o gatinho e olha esse belo fluxograma de como funciona o GIT e GIT HUB e suas fucionalidades
+
+![FLUXOGRAMA GIT](img/Funcionamento%20git.png)
+
+
 ## Git 
 
 > Git é um sistema de controle de versão distribuído. Ele permite que os desenvolvedores rastreiem e gerenciem mudanças em arquivos – geralmente, mas não exclusivamente, código-fonte de programas. Aqui estão algumas características e conceitos centrais do Git:
@@ -63,6 +73,41 @@
 * **Integração com Terceiros**: O GitHub pode ser integrado com muitas outras ferramentas e serviços.
 
 # Comandos git
+
+Inicia um novo projeto
+
+```sh
+$ git clone
+```
+
+> Usado para clonar (copiar) um repositório existente do Git para o seu computador.
+
+```sh
+$ git branch "Nome"
+```
+
+> Cria uma nova branch para ser usada
+
+```sh
+$ git tag "Nome"
+```
+
+> Permite marcar commits específicos, geralmente usados para indicar versões ou pontos de referência.
+
+
+```sh
+$ git checkout "Nome"
+```
+
+> Altera a branch que está sendo utilizada
+
+
+```sh
+$ git init
+```
+
+> Inicia o diretorio atual para o Git
+
 
 Adicionar os arquivos na 'staging' 
 > A área de Staging serve para serve para preparar as mudanças para o commit, flexibilizando as mudanças. Garantindo os commits mais limpos.
