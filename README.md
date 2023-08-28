@@ -182,5 +182,5 @@ $ git stash drop <nome>
 ```sh
 $ git stash clear 
 ```
-
+![Alt Text](GIF%2024-08-2023%2021-53-45.gif)
 
