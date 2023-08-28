@@ -183,4 +183,17 @@ $ git stash drop <nome>
 $ git stash clear 
 ```
 
+> Cria uma branch e já muda para ela"
+
+```sh
+$ git checkout -b nomeBranch
+```
+
+> Cria uma tag para versionar"
+
+```sh
+$ git tag V1.0
+```
+
+![Alt Text](gabriel.gif)
 
