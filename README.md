@@ -182,5 +182,19 @@ $ git stash drop <nome>
 ```sh
 $ git stash clear 
 ```
+> Remove todas as Stashes.
 
+```sh
+$ git checkout
+```
+> Usado para mudar entre diferentes branches e commits.
 
+```sh
+$ git remote
+```
+> Usado para gerenciar repositórios remotos associados ao seu projeto. 
+
+```sh
+$ git log
+```
+> Exibe um histórico de commits. 
