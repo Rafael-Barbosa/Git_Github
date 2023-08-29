@@ -182,5 +182,5 @@ $ git stash drop <nome>
 ```sh
 $ git stash clear 
 ```
-
+![Alt Text](Ursinho.gif)
 
