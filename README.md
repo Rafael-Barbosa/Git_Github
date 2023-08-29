@@ -10,6 +10,7 @@
 
 * **Merge**: O processo de combinar as mudanças de uma branch em outra.
 
+
 * **Distribuído**: Cada cópia local de um repositório Git é um clone completo, contendo todo o histórico de commits. Isso permite a colaboração sem um ponto central de falha e possibilita o trabalho offline.
 
 * **Áreas de Stage**: Antes de criar um commit, você deve adicionar (ou "stage") mudanças. Isso dá aos desenvolvedores mais controle sobre quais mudanças fazem parte de um commit.
