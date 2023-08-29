@@ -1,6 +1,6 @@
 # Comandos Git e Github
 
-[!teste](https://discord.com/channels/@me/1146227825632878693/1146227880716681307)
+![teste](https://discord.com/channels/376365316072013824/782073617966039090/1146230005332971581)
 
 ## Git 
 
