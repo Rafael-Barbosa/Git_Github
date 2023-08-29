@@ -180,6 +180,8 @@ $ git stash clear
 
 ![](head-gif.gif)
 
+# - - - - - - - -- - - - - - - -- - - -- - - - - - --
+
 # PARTE DA ENTREGA DO TRABALHO
 
 ## Coloque os comandos que faltam:
