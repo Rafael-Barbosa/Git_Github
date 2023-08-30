@@ -2,6 +2,9 @@
 
 ## Git 
 
+![Shark_gif_tubaroões_lindos](C:\Users\Jean Trojann\Desktop\Trabalho\Git_Github\img\shark.gif)
+
+
 > Git é um sistema de controle de versão distribuído. Ele permite que os desenvolvedores rastreiem e gerenciem mudanças em arquivos – geralmente, mas não exclusivamente, código-fonte de programas. Aqui estão algumas características e conceitos centrais do Git:
 
 * **Commits**: Um "snapshot" de um conjunto de mudanças nos arquivos. Cada commit tem um identificador único (um hash SHA-1).
