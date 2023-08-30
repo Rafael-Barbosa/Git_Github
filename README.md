@@ -1,5 +1,7 @@
 # Comandos Git e Github
 
+![git Sheet](image.png)
+
 ## Git 
 
 > Git é um sistema de controle de versão distribuído. Ele permite que os desenvolvedores rastreiem e gerenciem mudanças em arquivos – geralmente, mas não exclusivamente, código-fonte de programas. Aqui estão algumas características e conceitos centrais do Git:
@@ -183,4 +185,13 @@ $ git stash drop <nome>
 $ git stash clear 
 ```
 
+```sh
+$ git revert
 
+$ git tag -a v1.4 -m "my version 1.4"
+
+$ git checkout -b nome_Branch
+```
+
+
+![Wallpaper spinning gif](WallPaper.gif)
