@@ -1,6 +1,6 @@
 # Comandos Git e Github
 
-<div style="display: flex; justify-content: center">
+<div align="center">
   <img src="https://github.com/AlbertoZamarchi/Git_Github/blob/Alberto/img/TF2.gif" />
 </div>
 
