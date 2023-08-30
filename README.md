@@ -183,4 +183,29 @@ $ git stash drop <nome>
 $ git stash clear 
 ```
 
+```sh
+$ git stash clear 
+```
+```sh
+$ git clone
+```
+
+```sh
+$ git init
+```
+
+```sh
+$ git stash
+```
+
+```sh
+$ git restore
+```
+
+```sh
+$ git repo fork <repositorio>
+```
+[Page index](/index_nao_comentado.html.html) 
+
+<img src="/img/Gif_trabalho.gif">
 
