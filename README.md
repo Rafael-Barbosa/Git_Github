@@ -1,6 +1,8 @@
 # Comandos Git e Github
 
-![teste](https://github.com/AlbertoZamarchi/Git_Github/blob/Alberto/img/TF2.gif)
+<div style="display: flex; justify-content: center">
+  <img src="https://github.com/AlbertoZamarchi/Git_Github/blob/Alberto/img/TF2.gif" />
+</div>
 
 ## Git 
 
