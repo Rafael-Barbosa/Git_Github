@@ -1,5 +1,8 @@
 # Comandos Git e Github
 
+![](img/Colorful%20Get%20Things%20Done%20Flowchart%20Infographic%20Graph.png)
+
+
 ## Git 
 
 > Git é um sistema de controle de versão distribuído. Ele permite que os desenvolvedores rastreiem e gerenciem mudanças em arquivos – geralmente, mas não exclusivamente, código-fonte de programas. Aqui estão algumas características e conceitos centrais do Git:
@@ -183,4 +186,19 @@ $ git stash drop <nome>
 $ git stash clear 
 ```
 
+**Git clone**:
+> Esse comando é usado para clonar um repositório Git existente. Ele cria uma cópia local de um repositório remoto em seu sistema. Você fornece a URL do repositório remoto como argumento para o comando. 
 
+**Git Init**:
+> O comando git init é usado para inicializar um novo repositório Git em um diretório. Quando você executa esse comando em um diretório, ele cria uma estrutura inicial de repositório Git, incluindo um subdiretório .git que contém todos os metadados e configurações do repositório.
+
+**Git Stash**:
+> O comando git stash é usado para temporariamente salvar as mudanças não comprometidas em uma área de armazenamento oculta chamada "stash". Isso é útil quando você deseja alternar para outra ramificação ou aplicar um patch temporário, sem precisar fazer commit das mudanças em progresso.
+
+**Fork**
+>No contexto do GitHub, um "fork" é uma cópia independente de um repositório. Quando você faz um fork de um repositório, você cria uma cópia em seu próprio espaço no GitHub. Isso permite que você trabalhe nas mudanças sem afetar o repositório original. Depois de fazer as alterações em seu fork, você pode criar um "pull request" para sugerir que suas alterações sejam incorporadas ao repositório original.
+
+**Git Restore**:
+>O comando git restore é usado para descartar alterações em arquivos específicos ou para restaurar um arquivo em seu estado anterior. Ele pode ser usado para desfazer as modificações que não foram adicionadas à área de preparação (staging) ou para restaurar um arquivo ao seu estado no último commit.
+
+[teste](/index.html)
