@@ -180,8 +180,6 @@ $ git stash clear
 
 ![](head-gif.gif)
 
-# - - - - - - - -- - - - - - - -- - - -- - - - - - --
-
 # PARTE DA ENTREGA DO TRABALHO
 
 ## Coloque os comandos que faltam:
@@ -241,5 +239,5 @@ $ git branch -d nome
 ```sh 
 $ git push origin --delete nome-da-branch
 ```
-
-![](gif%20matheus.gif)
+<img src="gif%20matheus.gif" alt="Texto alternativo" style="width:50%;">
+<img src="estrutura-git.jpeg" alt="Texto alternativo" style="width:50%;">

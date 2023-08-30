@@ -100,8 +100,8 @@
 </blockquote>
 <h3 id="desafio">Desafio</h3>
 <p>Pequeno desafio, não quero que apareça o arquivo .gitignore no
-repositório remoto, como proceder? Por que isso não é recomendado?</p>
-<p>R: Adicione o .gitignore no próprio arquivo .gitignore, isso não é recomendável, pois um <strong>.gitignore</strong> pode prevenir que arquivos sensíveis ou desnecessários sejam comitados acidentalmente. O que é fundamental para outros desenvolvedores, e também serve como um documentação implícita.</p>
+repositório remoto, como proceder? Por que isso não é recomendado?
+R: Adicione o .gitignore no próprio arquivo .gitignore, isso não é recomendável, pois um <strong>.gitignore</strong> pode prevenir que arquivos sensíveis ou desnecessários sejam comitados acidentalmente. O que é fundamental para outros desenvolvedores, e também serve como um documentação implícita.</p>
 <blockquote>
 <p>Para atualizar o repositório local com as alterações feitas no repositório remoto.</p>
 <p>&#39;git pull&#39; é a combinação de dois comandos &#39;git fetch&#39; seguido por &#39;git merge&#39;.</p>
@@ -147,53 +147,66 @@ repositório remoto, como proceder? Por que isso não é recomendado?</p>
 <pre><code class="lang-sh">$ git stash <span class="hljs-built_in">clear</span>
 </code></pre>
 <p><img src="head-gif.gif" alt=""></p>
-<h1 id="-">- - - - - - - -- - - - - - - -- - - -- - - - - - --</h1>
-<h1 id="parte-da-entrega-do-trabalho">PARTE DA ENTREGA DO TRABALHO</h1>
-<h2 id="coloque-os-comandos-que-faltam-">Coloque os comandos que faltam:</h2>
-<h3 id="github">Github</h3>
+<h1 id="parte-da-entrega-do-trabalho"><strong>PARTE DA ENTREGA DO TRABALHO</strong></h1>
+<h2 id="coloque-os-comandos-que-faltam-"><strong>Coloque os comandos que faltam:</strong></h2>
+
+<h3 id="github"><strong>Github</strong></h3>
 <ul>
-<li><strong>Fork</strong>: Cria uma cópia de um repositório em sua conta para colaboração ou experimentação, independentemente do repositório original, depois de feitas as modificações no repositório forked, você pode criar <em>pull requests</em> para o repositório de onde você criou o fork.</li>
+    <li><strong>Fork</strong>: Cria uma cópia de um repositório em sua conta para colaboração ou experimentação, independentemente do repositório original, depois de feitas as modificações no repositório forked, você pode criar <em>pull requests</em> para o repositório de onde você criou o fork.</li>
 </ul>
-<h2 id="git">Git</h2>
+
+<h2 id="git"><strong>Git</strong></h2>
 <blockquote>
-<p>Trazer um projeto do GitHub (ou outro lugar) para o seu próprio computador</p>
+    <p>Trazer um projeto do GitHub (ou outro lugar) para o seu próprio computador</p>
 </blockquote>
 <pre><code class="lang-sh">$ git <span class="hljs-built_in">clone</span>
 </code></pre>
-<h3 id="criando-e-editando-branches-">Criando e editando branches:</h3>
-<h4 id="branches-servem-para-trabalhar-sem-afetar-o-trabalho-em-outras-partes-do-projeto-posteriormente-branches-podem-ser-pulladas-para-a-branch-main-do-projeto-">Branches servem para trabalhar sem afetar o trabalho em outras partes do projeto, posteriormente branches podem ser pulladas para a branch main do projeto.</h4>
+
+<h3 id="criando-e-editando-branches-"><strong>Criando e editando branches:</strong></h3>
+<h4 id="branches-servem-para-trabalhar-sem-afetar-o-trabalho-em-outras-partes-do-projeto-posteriormente-branches-podem-ser-pulladas-para-a-branch-main-do-projeto-"><strong>Branches servem para trabalhar sem afetar o trabalho em outras partes do projeto, posteriormente branches podem ser pulladas para a branch main do projeto.</strong></h4>
 <blockquote>
-<p>Criar uma nova branch</p>
+    <p>Criar uma nova branch</p>
 </blockquote>
 <pre><code class="lang-sh">$ git checkout -<span class="hljs-selector-tag">b</span> nome
 </code></pre>
+
 <blockquote>
-<p>Renomear uma branch no LOCAL: <strong>&#39;git branch -m novo-nome&#39;</strong></p>
-<p>Renomear essa mesma branch mas agora no REMOTO: </p>
+    <p>Renomear uma branch no LOCAL: <strong>&#39;git branch -m novo-nome&#39;</strong></p>
+    <p>Renomear essa mesma branch mas agora no REMOTO: </p>
+</blockquote>
 <pre><code class="lang-sh"><span class="hljs-variable">$ </span>git push origin <span class="hljs-symbol">:nome-antigo</span> origin/novo-nome
 </code></pre>
+
 <blockquote>
-<p>isso vai deletar a branch com o nome antigo e crie uma nova, com o novo nome.</p>
+    <p>isso vai deletar a branch com o nome antigo e crie uma nova, com o novo nome.</p>
 </blockquote>
+
 <p>Para mostrar todas as outras branchs <strong>locais</strong>, destacando a que você está trabalhando no momento:</p>
-</blockquote>
 <pre><code class="lang-sh"><span class="hljs-variable">$ </span>git branch
 </code></pre>
+
 <blockquote>
-<p>Caso queira trocar para outra branch use <strong>&#39;git checkout nome&#39;</strong></p>
-<p>Para mesclar a branch que você está trabalhando em outra use <strong>&#39;git merge nome&#39;</strong></p>
-<p>Ver a diferença entre duas branches:</p>
+    <p>Caso queira trocar para outra branch use <strong>&#39;git checkout nome&#39;</strong></p>
+    <p>Para mesclar a branch que você está trabalhando em outra use <strong>&#39;git merge nome&#39;</strong></p>
+    <p>Ver a diferença entre duas branches:</p>
 </blockquote>
 <pre><code class="lang-sh">$ git diff bra<span class="hljs-symbol">nch1</span>..bra<span class="hljs-symbol">nch2</span>
 </code></pre>
-<h3 id="excluindo-branches">Excluindo branches</h3>
+
+<h3 id="excluindo-branches"><strong>Excluindo branches</strong></h3>
 <blockquote>
-<p>Para excluir uma branch local</p>
-<pre><code class="lang-sh">$ git <span class="hljs-keyword">branch </span>-d nome
-</code></pre>
-<p>Excluir a branch agora no remoto</p>
-<pre><code class="lang-sh">$ git <span class="hljs-built_in">push</span> <span class="hljs-built_in">origin</span> --<span class="hljs-built_in">delete</span> nome-da-branch
-</code></pre>
+    <p>Para excluir uma branch local</p>
+    <pre><code class="lang-sh">$ git <span class="hljs-keyword">branch </span>-d nome
+    </code></pre>
+    
+    <p>Excluir a branch agora no remoto</p>
+    <pre><code class="lang-sh">$ git <span class="hljs-built_in">push</span> <span class="hljs-built_in">origin</span> --<span class="hljs-built_in">delete</span> nome-da-branch
+    </code></pre>
 </blockquote>
-<p>Para abrir a página mostrada no gif abaixo, <a href="index.html"><u>clique aqui</u></a>:</p>
-<p><img src="gif%20matheus.gif" alt="" style="width: 50%; height: auto;"></p>
+
+<p><a href="index.html"><strong>Clique aqui</strong></a> para abrir a página gravada no gif:</p>
+<img src="gif%20matheus.gif" alt="" style="width: 50%;">
+<p>Crie uma figura representando o funcionamento do git e github. (utilize uma
+    ferramenta de edição e desenho - Corel, Inkscape. Coloque no
+    README.md</p>
+<img src="estrutura-git.jpeg" alt="" style="width: 50%;">
