@@ -184,3 +184,7 @@ $ git stash clear
 ```
 
 
+# representação git e github
+
+![](git-github.jpg)
+
