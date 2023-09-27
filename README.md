@@ -1,5 +1,7 @@
 # Comandos Git e Github
 
+[Ronaldo Fenômeno](https://tenor.com/pt-BR/view/ronaldo-player-soccer-brasil-pointing-you-gif-9961265)
+
 ## Git 
 
 ![Shark_gif_tubaroões_lindos](C:\Users\Jean Trojann\Desktop\Trabalho\Git_Github\img\shark.gif)
@@ -185,5 +187,3 @@ $ git stash drop <nome>
 ```sh
 $ git stash clear 
 ```
-
-
