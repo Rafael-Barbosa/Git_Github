@@ -1,6 +1,6 @@
 # Comandos Git e Github
 
-[Hommer](https://github.com/MateusEdcSousa/Git_Github/blob/Matheus_Eduardo_Carvalho/images/Hommer1.gif)
+![Hommer](https://github.com/MateusEdcSousa/Git_Github/blob/Matheus_Eduardo_Carvalho/images/Hommer1.gif)
 
 ## Git 
 
