@@ -1,6 +1,5 @@
 # Comandos Git e Github
 
-[Ronaldo Fenômeno](https://tenor.com/pt-BR/view/ronaldo-player-soccer-brasil-pointing-you-gif-9961265)
 
 ## Git 
 
